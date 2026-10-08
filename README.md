@@ -76,7 +76,7 @@ MCP Inspector:
 npx @modelcontextprotocol/inspector /path/to/adnetwork-reporting-mcp/.venv/bin/adnet-mcp
 ```
 
-Checked on 2026-10-08: Claude Code 2.1.294 connects; MCP Inspector lists the five tools and runs `budget_pacing`; Codex CLI 0.156.1 and Gemini CLI 0.63.0 accept the config.
+Checked on 2026-10-08: Claude Code 2.1.294 connects; MCP Inspector lists the five tools and runs `budget_pacing`; Codex CLI 0.156.1 accepts the config; Gemini CLI 0.63.0 ran headless, called `list_networks` and named all three networks. Gemini CLI marks servers "Disabled" in a folder it does not trust; trust the folder or pass `--skip-trust`.
 
 ## Tests
 
